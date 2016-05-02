@@ -34,15 +34,15 @@
 		</div>
 		<div class="row">
 		<!--<div class="col-sm-9">-->
-			<c:forEach items="${produse}" var="produs">
+			<c:forEach items="${produse}" var="articol">
 				 <div class="col-sm-4"> 
 
 					<!--<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">-->
 					<div class="thumbnail">
-						<img class="imagine" src="${produs.calePoza}" alt="${produs.descriere}">
+						<img class="imagine" src="${produs.calePoza}" alt="${articol.descriere}">
 						<div class="caption">
-							<h3>${produs.denumire}</h3>
-							<p>${produs.descriere}</p>
+							<h3>${articol.denumire}</h3>
+							<p>${articol.descriere}</p>
 							<p>
 								<a href="#" class="btn btn-primary" role="button">LIKE</a> <a
 									href="#" class="btn btn-success" role="button">SHARE</a>
